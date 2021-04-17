@@ -1,0 +1,17 @@
+@font-face {
+	font-family: ChakraPetchRegular;
+	src: url("/idocnet/font/ChakraPetch-Regular.ttf");
+}
+
+@font-face {
+	font-family: ChakraPetchMedium;
+	src: url("/idocnet/fonts/ChakraPetch-Medium.ttf");
+}
+
+.font-1 {
+	font-family: ChakraPetchMedium;
+}
+
+.font-2 {
+	font-family: ChakraPetchRegular;
+}
