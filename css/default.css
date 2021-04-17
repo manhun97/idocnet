@@ -3,6 +3,7 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	box-sizing: border-box;
 }
 
 a {
@@ -44,7 +45,7 @@ li {
 	max-height: 60px;
 }
 
-.main-nav > a {
+.main-nav a {
 	font-family: ChakraPetchMedium;
 	color: #333333;
 	font-size: 16px;
@@ -53,8 +54,9 @@ li {
 	padding: 8px 18px 8px;
 	margin: 0;
 	border-bottom: 2px solid transparent;
+	line-height: 35px;
 }
 
-.main-nav > a:active {
+.main-nav a:active {
 	border-bottom: 2px solid #0e528b;
 }
