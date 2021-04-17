@@ -122,9 +122,9 @@ footer form {
 }
 
 .footer-logo {
-	display: block;
-	max-width: 100%;
-	height: auto;
+	display: inline-block;
+	width: auto;
+	max-height: 100px;
 }
 
 .copyright {
