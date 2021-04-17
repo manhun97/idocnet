@@ -108,6 +108,12 @@ li {
 	display: block;
 }
 
+.email-sub {
+	background-image: url("/idocnet/media/bg-regis.jpg");
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .footer-1,
 .footer-2,
 .copyright {
