@@ -41,8 +41,9 @@ li {
 }
 
 .main-nav-logo {
-	width: auto;
-	max-height: 40px;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .main-nav a {
@@ -60,4 +61,22 @@ li {
 
 .main-nav a:active {
 	border-bottom: 2px solid #0e528b;
+}
+
+footer {
+	background-color: #272d3a;
+}
+
+footer form {
+	text-align: center;
+}
+
+.footer-1 {
+	display: flex;
+}
+
+.footer-logo {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
