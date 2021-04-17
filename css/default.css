@@ -5,6 +5,10 @@
 	font-size: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul,
 ol,
 li {
@@ -30,6 +34,7 @@ li {
 }
 
 .main-nav {
+	background-color: white;
 	display: flex;
 	height: 60px;
 }
@@ -39,7 +44,17 @@ li {
 	max-height: 60px;
 }
 
-.main-nav > li,
-.main-nav > li > ul > li {
+.main-nav > a {
 	font-family: ChakraPetchMedium;
+	color: #333333;
+	font-size: 16px;
+	bottom: -2px;
+	position: relative;
+	padding: 8px 18px 8px;
+	margin: 0;
+	border-bottom: 2px solid transparent;
+}
+
+.main-nav > a:active {
+	border-bottom: 2px solid #0e528b;
 }
