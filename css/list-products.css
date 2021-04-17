@@ -22,6 +22,7 @@ li {
 }
 
 .list-nav {
+	justify-content: center;
 }
 
 .row,
