@@ -61,7 +61,13 @@ li {
 	height: 60px;
 }
 
-.main-nav-logo {
+.main-nav-logo-left {
+	display: block;
+	max-width: 100%;
+	height: 30px;
+}
+
+.main-nav-logo-right {
 	display: block;
 	max-width: 100%;
 	height: 40px;
