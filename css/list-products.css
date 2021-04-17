@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 100%;
+	height: auto;
+}
+
 a {
 	text-decoration: none;
 }
@@ -17,12 +22,10 @@ li {
 }
 
 .list-nav {
-	display: flex;
 }
 
 .row,
 .row-2 {
-	display: flex;
 }
 
 .row-2 div,

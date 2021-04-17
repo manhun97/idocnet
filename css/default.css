@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 100%;
+	height: auto;
+}
+
 a {
 	text-decoration: none;
 }
@@ -26,6 +31,10 @@ li {
 	src: url("/idocnet/font/ChakraPetch-Medium.ttf");
 }
 
+.d-flex {
+	display: flex;
+}
+
 .font-1 {
 	font-family: ChakraPetchMedium;
 }
@@ -34,9 +43,20 @@ li {
 	font-family: ChakraPetchRegular;
 }
 
+.grow-1 {
+	flex-grow: 1;
+}
+
+.grow-2 {
+	flex-grow: 2;
+}
+
+.grow-5 {
+	flex-grow: 5;
+}
+
 .main-nav {
 	background-color: white;
-	display: flex;
 	height: 60px;
 }
 
@@ -72,7 +92,6 @@ footer form {
 }
 
 .footer-1 {
-	display: flex;
 }
 
 .footer-logo {
