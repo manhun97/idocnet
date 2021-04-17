@@ -55,6 +55,7 @@ li {
 	margin: 0;
 	border-bottom: 2px solid transparent;
 	line-height: 35px;
+	width: 100%;
 }
 
 .main-nav a:active {
