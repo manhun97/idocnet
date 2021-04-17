@@ -1,9 +1,28 @@
+@font-face {
+	font-family: ChakraPetchRegular;
+	src: url("/idocnet/font/ChakraPetch-Regular.ttf");
+}
+
+@font-face {
+	font-family: ChakraPetchMedium;
+	src: url("/idocnet/font/ChakraPetch-Medium.ttf");
+}
+
+.font-1 {
+	font-family: ChakraPetchRegular;
+}
+
+.font-2 {
+	font-family: ChakraPetchMedium;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	box-sizing: border-box;
+	font-family: ChakraPetchRegular;
 }
 
 body {
@@ -21,26 +40,8 @@ li {
 	list-style: none;
 }
 
-@font-face {
-	font-family: ChakraPetchRegular;
-	src: url("/idocnet/font/ChakraPetch-Regular.ttf");
-}
-
-@font-face {
-	font-family: ChakraPetchMedium;
-	src: url("/idocnet/font/ChakraPetch-Medium.ttf");
-}
-
 .d-flex {
 	display: flex;
-}
-
-.font-1 {
-	font-family: ChakraPetchMedium;
-}
-
-.font-2 {
-	font-family: ChakraPetchRegular;
 }
 
 .grow-1 {
@@ -98,4 +99,8 @@ footer form {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.copyright {
+	text-align: center;
 }
