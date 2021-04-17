@@ -64,7 +64,7 @@ li {
 .main-nav-logo {
 	display: block;
 	max-width: 100%;
-	height: auto;
+	height: 40px;
 }
 
 .main-nav a {
