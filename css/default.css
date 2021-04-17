@@ -1,3 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+ol,
+li {
+	list-style: none;
+}
+
 @font-face {
 	font-family: ChakraPetchRegular;
 	src: url("/idocnet/font/ChakraPetch-Regular.ttf");
@@ -17,12 +29,12 @@
 }
 
 .main-nav {
-	list-style: none;
 	display: flex;
 	height: 60px;
 }
 
 .main-nav > li {
-	width: 100%;
+	font-family: ChakraPetchMedium;
+	width: auto;
 	height: auto;
 }
