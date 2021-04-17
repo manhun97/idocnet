@@ -15,3 +15,14 @@
 .font-2 {
 	font-family: ChakraPetchRegular;
 }
+
+.main-nav {
+	list-style: none;
+	display: flex;
+	height: 60px;
+}
+
+.main-nav > li {
+	width: 100%;
+	height: auto;
+}
