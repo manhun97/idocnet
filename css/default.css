@@ -72,6 +72,7 @@ li {
 }
 
 .main-nav {
+	align-items: center;
 	background-color: white;
 	height: 60px;
 }
