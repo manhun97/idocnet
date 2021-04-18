@@ -26,7 +26,7 @@ li {
 }
 
 .list-product {
-	width: 80%;
+	padding: 0px 200px 0px 200px;
 }
 
 .list-nav {
@@ -35,6 +35,7 @@ li {
 }
 
 .row {
+	width: 100%;
 }
 
 .row-2 div,
