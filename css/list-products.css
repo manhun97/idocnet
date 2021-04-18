@@ -25,13 +25,16 @@ li {
 	list-style: none;
 }
 
+.list-product {
+	width: 80%;
+}
+
 .list-nav {
 	color: #337ab7;
 	justify-content: center;
 }
 
 .row {
-	width: 100%;
 }
 
 .row-2 div,
