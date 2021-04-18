@@ -30,8 +30,12 @@ body {
 	height: auto;
 }
 
-a {
+a,
+a:hover,
+a:visited,
+a:active {
 	text-decoration: none;
+	color: inherit;
 }
 
 ul,
