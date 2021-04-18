@@ -131,15 +131,12 @@ li {
 	background-color: #272d3a;
 }
 
-footer {
-	padding: 0px 80px 0px 80px;
-}
-
 footer form {
 	text-align: center;
 }
 
 .footer-1 {
+	padding: 0px 80px 0px 80px;
 }
 
 .footer-logo {
