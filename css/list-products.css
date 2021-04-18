@@ -11,7 +11,10 @@ body {
 	height: auto;
 }
 
-a {
+a,
+a:hover,
+a:visited,
+a:active {
 	text-decoration: none;
 }
 
@@ -22,6 +25,7 @@ li {
 }
 
 .list-nav {
+	color: #337ab7;
 	justify-content: center;
 }
 
