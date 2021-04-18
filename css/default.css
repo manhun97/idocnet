@@ -128,9 +128,8 @@ footer form {
 }
 
 .footer-logo {
-	display: inline-block;
-	width: auto;
-	max-height: 100px;
+	width: fit-content;
+	height: auto;
 }
 
 .copyright {
