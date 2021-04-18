@@ -46,6 +46,7 @@ li {
 
 .grow-1 {
 	flex-grow: 1;
+	max-height: none;
 }
 
 .grow-2 {
