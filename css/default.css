@@ -131,6 +131,7 @@ li {
 .footer-1,
 .footer-2,
 .copyright {
+	color: white;
 	background-color: #272d3a;
 }
 
@@ -140,7 +141,6 @@ footer form {
 
 .footer-1,
 .footer-2 {
-	color: white;
 	padding: 10px 80px 10px 80px;
 }
 
