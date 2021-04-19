@@ -16,7 +16,7 @@ a:hover,
 a:visited,
 a:active {
 	text-decoration: none;
-	color: inherit;
+	color: unset;
 }
 
 ul,
@@ -26,15 +26,37 @@ li {
 }
 
 .list-product {
-	padding: 0px 200px 0px 200px;
+	padding: 0px 250px 0px 250px;
 }
 
 .list-nav {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 30px 50px 10px 50px;
 	color: #337ab7;
-	justify-content: center;
+	border-bottom: 1px solid #333333;
+}
+
+.list-nav > a:active {
+	color: #df6a0e !important;
+}
+
+.row-2 {
+	padding: 10px 0 10px 0;
 }
 
 .row-2 div,
 img {
 	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.row-2 img {
+	margin-bottom: -20px;
+}
+
+.row-2 img:hover {
+	transform: scale(1.1);
+	transition: 1s;
 }
