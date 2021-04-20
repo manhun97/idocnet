@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 @font-face {
 	font-family: ChakraPetchRegular;
 	src: url("/idocnet/font/ChakraPetch-Regular.ttf");
@@ -102,6 +106,85 @@ button {
 	background: #034a84;
 	border-radius: 2px;
 	height: 100%;
+}
+
+.left-icon {
+	display: block;
+	margin: 10px;
+	position: fixed;
+	bottom: 30%;
+	z-index: 9999;
+	border-radius: 20px;
+}
+
+.left-icon .icon {
+	padding: 5px;
+}
+
+.left-icon .icon img:hover {
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.right-button {
+	margin: 10px;
+	position: fixed;
+	bottom: 40%;
+	right: 0;
+	z-index: 9999;
+	width: 15%;
+	font-weight: 100;
+}
+
+.right-button .button {
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #ff4d4d;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.right-button a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.call-button {
+	position: fixed;
+	bottom: 15px;
+	left: 18px;
+	z-index: 9999;
+}
+.call-button .call {
+	background: #d60202;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	background-size: 40px;
+	border-radius: 28px;
+	border: solid 1px #ccc;
+}
+
+.call-button .call a {
+	font-size: 22px;
+	color: #fff;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left: 30px;
+	margin: 0 0;
+}
+
+.call-button .call:hover {
+	background: #fff;
+}
+
+.call-button .call a:hover {
+	color: #d60202;
 }
 
 .main-nav {

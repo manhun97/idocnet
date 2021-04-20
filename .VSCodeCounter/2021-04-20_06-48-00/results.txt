@@ -1,0 +1,57 @@
+Date : 2021-04-20 06:48:00
+Directory : c:\Users\x0164\Desktop\idocnet
+Total : 19 files,  1505 codes, 54 comments, 133 blanks, all 1692 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| HTML     |          3 |        948 |         52 |          2 |      1,002 |
+| CSS      |          3 |        291 |          0 |         64 |        355 |
+| Markdown |         11 |        223 |          0 |         65 |        288 |
+| XML      |          2 |         43 |          2 |          2 |         47 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         19 |      1,505 |         54 |        133 |      1,692 |
+| .VSCodeCounter                                                               |         10 |        222 |          0 |         65 |        287 |
+| .VSCodeCounter\2021-04-18_05-34-51                                           |          2 |         36 |          0 |         13 |         49 |
+| .VSCodeCounter\2021-04-18_06-22-26                                           |          2 |         40 |          0 |         13 |         53 |
+| .VSCodeCounter\2021-04-18_10-14-16                                           |          2 |         43 |          0 |         13 |         56 |
+| .VSCodeCounter\2021-04-19_16-51-43                                           |          2 |         50 |          0 |         13 |         63 |
+| .VSCodeCounter\2021-04-19_22-07-09                                           |          2 |         53 |          0 |         13 |         66 |
+| css                                                                          |          3 |        291 |          0 |         64 |        355 |
+| media                                                                        |          2 |         43 |          2 |          2 |         47 |
+| vi                                                                           |          2 |        934 |         52 |          2 |        988 |
+| vi\danh-sach-san-pham                                                        |          1 |        327 |         28 |          2 |        357 |
+| vi\san-pham                                                                  |          1 |        607 |         24 |          0 |        631 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                     | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_05-34-51\details.md | Markdown |         16 |          0 |          6 |         22 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_05-34-51\results.md | Markdown |         20 |          0 |          7 |         27 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_06-22-26\details.md | Markdown |         18 |          0 |          6 |         24 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_06-22-26\results.md | Markdown |         22 |          0 |          7 |         29 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_10-14-16\details.md | Markdown |         20 |          0 |          6 |         26 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-18_10-14-16\results.md | Markdown |         23 |          0 |          7 |         30 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-19_16-51-43\details.md | Markdown |         24 |          0 |          6 |         30 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-19_16-51-43\results.md | Markdown |         26 |          0 |          7 |         33 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-19_22-07-09\details.md | Markdown |         26 |          0 |          6 |         32 |
+| c:\Users\x0164\Desktop\idocnet\.VSCodeCounter\2021-04-19_22-07-09\results.md | Markdown |         27 |          0 |          7 |         34 |
+| c:\Users\x0164\Desktop\idocnet\README.md                                     | Markdown |          1 |          0 |          0 |          1 |
+| c:\Users\x0164\Desktop\idocnet\css\default.css                               | CSS      |        171 |          0 |         39 |        210 |
+| c:\Users\x0164\Desktop\idocnet\css\list-products.css                         | CSS      |         29 |          0 |          7 |         36 |
+| c:\Users\x0164\Desktop\idocnet\css\product.css                               | CSS      |         91 |          0 |         18 |        109 |
+| c:\Users\x0164\Desktop\idocnet\index.html                                    | HTML     |         14 |          0 |          0 |         14 |
+| c:\Users\x0164\Desktop\idocnet\media\icon-contact.svg                        | XML      |         19 |          1 |          1 |         21 |
+| c:\Users\x0164\Desktop\idocnet\media\icon-market.svg                         | XML      |         24 |          1 |          1 |         26 |
+| c:\Users\x0164\Desktop\idocnet\vi\danh-sach-san-pham\xe-du-lich.html         | HTML     |        327 |         28 |          2 |        357 |
+| c:\Users\x0164\Desktop\idocnet\vi\san-pham\grand-i10.html                    | HTML     |        607 |         24 |          0 |        631 |
+| Total                                                                        |          |      1,505 |         54 |        133 |      1,692 |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

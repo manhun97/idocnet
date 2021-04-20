@@ -2,6 +2,26 @@
 	padding: 0;
 }
 
+.sticky-nav {
+	justify-content: center;
+	align-items: center;
+	padding: 10px 250px 10px 250px;
+}
+
+.sticky {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+}
+
+.sticky-nav > div > ul > li > a {
+	padding: 0 10px;
+	font-weight: bold;
+	color: #0e528b;
+}
+
 .slide-heading {
 	display: flex;
 	justify-content: center;

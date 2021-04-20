@@ -12,6 +12,35 @@
 <body>
     <!-- HEADER -->
     <header>
+        <!-- Sticky Button -->
+        <div class="left-icon">
+            <div class="icon">
+                <a href="https://www.youtube.com/channel/UC42dzoVIXh4275k3B0vkRqw?view_as=subscriber">
+                    <img style="max-width: 50px;" width="100%" src="/idocnet/media/youtube.svg" alt="">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/hyundaianphu.mpcauto.vn">
+                    <img style="max-width: 50px;" width="100%" src="/idocnet/media/facebook.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="right-button">
+            <div class="button">
+                <a href="">Đăng ký lái thử</a>
+            </div>
+            <div class="button">
+                <a href="">Đặt lịch bảo dưỡng</a>
+            </div>
+        </div>
+        <div class="call-button">
+            <div class="call">
+                <a href="tel:1900988978">1900 988 978</a>
+            </div>
+        </div>
+        <div id="icic_lc_wrapper" style="position: fixed; bottom: 0px; right: 5px; z-index: 9999; height: 500px; width: 300px; border: none; display: none;"><div id="icic_lc_head" style="width: 100%; height: 32px; background: transparent; cursor:pointer; z-index: 10; position: absolute; top: 0; left: 0;" onclick="icic_lc_hide();"></div><iframe style="position: absolute; bottom: 0; right: 0; width: 300px; height: 500px; border: none;" src="http://icichtc.ewave.vn:4900/LiveChatClient?appId=10372&amp;o=true"></iframe></div>
+        <div id="icic_lc_button" style="position: fixed; width: 200px; height: 30px; bottom: 0; right: 5px; background: #50B2E5; border-radius: 3px 3px 0 0; cursor: pointer;" onclick="icic_lc_show();"><span style="background: url(http://icichtc.ewave.vn:4900/images/livechat/lcwg.png) center left no-repeat; margin-left: 10px; line-height: 30px; display: inline-block; padding-left: 30px; font: 700 14px/30px arial; color: #fff;">Chat với chúng tôi!</span></div>
+        <!-- END Sticky Button -->
         <!-- Main Navigation Menu -->
         <nav class="main-nav d-flex">
             <div class="grow-1">
@@ -145,7 +174,21 @@
             <div></div>
             <div></div>
         </div>
-        <div></div>
+        <div id="sticky-nav" class="d-flex sticky-nav">
+            <div class="grow-1">
+                <img width="100%" src="/idocnet/media/GRAND-I10_logo.png" alt="">
+            </div>
+            <div class="grow-5">
+                <ul class="d-flex">
+                    <li><a href="#slide-1">Nổi bật</a></li>
+                    <li><a href="#slide-2">Ngoại thất</a></li>
+                    <li><a href="#slide-3">Nội thất</a></li>
+                    <li><a href="#slide-4">Vận hành</a></li>
+                    <li><a href="#slide-5">An toàn</a></li>
+                    <li><a href="#slide-6">Tiện nghi</a></li>
+                </ul>
+            </div>
+        </div>
         <div>
             <div id="slide-1">
                 <div class="slide-heading"><a>NỔI BẬT</a></div>
@@ -628,4 +671,9 @@
     </footer>
     <!-- END FOOTER -->
 </body>
+<!-- SCRIPT -->
+<script src="/idocnet/js/product.js"></script>
+<script type="text/javascript" src="http://icichtc.ewave.vn:4900/js/icic_lc.js?2"></script>
+<script type="text/javascript" src="http://icichtc.ewave.vn:4900/livechatclient/scripts?appid=10372"></script>
+<!-- END SCRIPT -->
 </html>
